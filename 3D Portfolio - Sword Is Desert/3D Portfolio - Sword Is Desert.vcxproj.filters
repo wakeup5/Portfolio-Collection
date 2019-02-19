@@ -1,0 +1,977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{fc92547b-5d76-4e47-84e7-fd85ee39a7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{2ff5bf81-de3e-4529-ad9d-e9df3113315a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{473949d1-ca25-4b85-8995-b3e2d4a0b7a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Common">
+      <UniqueIdentifier>{97c0aaec-50ff-40ae-9aa6-4abdeaeb76fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Action">
+      <UniqueIdentifier>{a5deeb8a-e910-4619-84fe-52aae8696b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manager">
+      <UniqueIdentifier>{040da957-f4b8-435c-99e9-8cceaf6c2494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects">
+      <UniqueIdentifier>{c4f62cf1-3532-47ed-90c4-d20f313265c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\xMesh">
+      <UniqueIdentifier>{8c312ea9-68fc-44bd-9936-142934b33ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework\UI">
+      <UniqueIdentifier>{afef683c-ce17-4c79-86b1-5933037f733a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{95c87711-0b9d-4353-aa54-02541310bbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Character">
+      <UniqueIdentifier>{0665fd5c-b94d-4763-979a-3079d1146f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Character\Player">
+      <UniqueIdentifier>{8b1514fe-9ec0-4c1b-ba20-e500344930b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Light">
+      <UniqueIdentifier>{4ef977ec-5185-4fcb-8607-77e1a355a02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Character\Monster">
+      <UniqueIdentifier>{7a082752-f04a-4466-a879-e17e79e8c5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Daliy">
+      <UniqueIdentifier>{31014e7f-bc81-4e25-9a06-9c447fd1beea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Character\NPC">
+      <UniqueIdentifier>{fb5c7868-981a-4d8e-9e9d-fe0242582d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Character\vehicle">
+      <UniqueIdentifier>{af497408-0a74-4276-8515-c40e2c21b4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Character\Item">
+      <UniqueIdentifier>{b5130031-2466-4c39-9ac2-8a4cae837845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Common\Figure">
+      <UniqueIdentifier>{f3270234-d236-40e8-9c9e-800befa46088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Common\NameTag">
+      <UniqueIdentifier>{a639e0ad-ce0e-425b-b9a5-7f1f03d5b791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Lib">
+      <UniqueIdentifier>{6b020736-2604-44f2-83bd-02b3380052c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Data">
+      <UniqueIdentifier>{15b261ee-7eea-4ea2-a9d0-fc77b7df5aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect">
+      <UniqueIdentifier>{8de5f9c9-5a3d-46cc-86d7-9a287d357f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Map">
+      <UniqueIdentifier>{f503d8f2-368f-4f92-a9a0-177f5ef30d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\아이템 관련">
+      <UniqueIdentifier>{8dc1ae2d-144a-41b9-a36a-fc14c07c18c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\기본">
+      <UniqueIdentifier>{ebeb6229-32bf-44bb-9efe-3d1150a056ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\CurrentEffect">
+      <UniqueIdentifier>{ce48ea34-f6f1-4cbf-9288-25740401922a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\SpriteEffect">
+      <UniqueIdentifier>{9c0187c6-a1cb-44e4-a307-35838479b3f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="aa.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="3D Portfolio - Sword Is Desert.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFontManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GizmoManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LogMgr.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysicManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_ShaderFX.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_Texture.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XSkinnedMesh.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr_XStaticMesh.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Static.h">
+      <Filter>Framework\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh_Skinned.h">
+      <Filter>Framework\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cXMesh.h">
+      <Filter>Framework\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneHierachy.h">
+      <Filter>Framework\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedAnimation.h">
+      <Filter>Framework\xMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundBox.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundSphere.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Game\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionMoveBezier.h">
+      <Filter>Game\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUtil.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextBox.h">
+      <Filter>Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWindow.h">
+      <Filter>Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cBaseObject.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Spot.h">
+      <Filter>Framework\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight.h">
+      <Filter>Framework\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Direction.h">
+      <Filter>Framework\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight_Point.h">
+      <Filter>Framework\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Game\Objects\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPlayer.h">
+      <Filter>Game\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Day.h">
+      <Filter>Game\Daliy</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>Game\Objects\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Opening.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Game\Objects\Character\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicle.h">
+      <Filter>Game\Objects\Character\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillManager.h">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Game\Objects\Character\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Game\Objects\Character\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game\Objects\Character\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCManager.h">
+      <Filter>Game\Objects\Character\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Framework\Common\Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleLine.h">
+      <Filter>Framework\Common\Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="NameTag.h">
+      <Filter>Framework\Common\NameTag</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Game\Objects\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Framework\Common\Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrain.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadTree.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrustum.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCamera.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDataSaveLoad.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>Framework\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UICommon.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Mercenary.h">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleBoss.h">
+      <Filter>Game\Objects\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Game\Objects\Character\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBase.h">
+      <Filter>Game\Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapView.h">
+      <Filter>Game\Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="LerpAnimation.h">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketObject.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopManager.h">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClInclude>
+    <ClInclude Include="UIInventory.h">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEquippedItem.h">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMouseSocket.h">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClInclude>
+    <ClInclude Include="UIShop.h">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAlram.h">
+      <Filter>Game\UI\기본</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDialog.h">
+      <Filter>Game\UI\기본</Filter>
+    </ClInclude>
+    <ClInclude Include="UIProgress.h">
+      <Filter>Game\UI\기본</Filter>
+    </ClInclude>
+    <ClInclude Include="UIQuest.h">
+      <Filter>Game\UI\기본</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScreen.h">
+      <Filter>Game\UI\기본</Filter>
+    </ClInclude>
+    <ClInclude Include="UISkill.h">
+      <Filter>Game\UI\기본</Filter>
+    </ClInclude>
+    <ClInclude Include="UISocket.h">
+      <Filter>Game\UI\기본</Filter>
+    </ClInclude>
+    <ClInclude Include="cPartcleEmitter.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleQuad.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadParticleEmitter.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MercenaryWeapon.h">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Around_Dust.h">
+      <Filter>Game\Effect\CurrentEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Dust.h">
+      <Filter>Game\Effect\CurrentEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="fog.h">
+      <Filter>Game\Effect\CurrentEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="UIShopButton.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PostEffect.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game\Objects\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="BossPoisonCloud.h">
+      <Filter>Game\Effect\CurrentEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAttack1.h">
+      <Filter>Game\Effect\CurrentEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelect.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UILevel.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteEffect.h">
+      <Filter>Game\Effect\SpriteEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack_Effect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BowEffect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BowEffect02.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BowEffect03.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_01.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="effect_02.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_03.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="HitRing.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Mon_DamageFX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Mon_DamageRingFX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAttackFX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PC_DamageFX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PC_UFX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PCU_Around_Dust.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RideFX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RollingDust.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShiledFX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShiledPtFX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword_effect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Golem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Muspel.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Pumpkin.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SkullWarrior.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Storm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StormDust.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StormPt.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Uskill_DustFX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc_Dust.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OrcPoisonCloud.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMiniMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Around_Dust.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3D Portfolio - Sword Is Desert.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFontManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GizmoManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LogMgr.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysicManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_ShaderFX.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_Texture.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XSkinnedMesh.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr_XStaticMesh.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Static.cpp">
+      <Filter>Framework\xMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh_Skinned.cpp">
+      <Filter>Framework\xMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cXMesh.cpp">
+      <Filter>Framework\xMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedAnimation.cpp">
+      <Filter>Framework\xMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneHierachy.cpp">
+      <Filter>Framework\xMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundBox.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoundSphere.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionMoveBezier.cpp">
+      <Filter>Game\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUtil.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextBox.cpp">
+      <Filter>Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWindow.cpp">
+      <Filter>Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cBaseObject.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight.cpp">
+      <Filter>Framework\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Direction.cpp">
+      <Filter>Framework\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Point.cpp">
+      <Filter>Framework\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight_Spot.cpp">
+      <Filter>Framework\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Game\Objects\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPlayer.cpp">
+      <Filter>Game\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Day.cpp">
+      <Filter>Game\Daliy</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>Game\Objects\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Opening.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Game\Objects\Character\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicle.cpp">
+      <Filter>Game\Objects\Character\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillManager.cpp">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Game\Objects\Character\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Game\Objects\Character\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game\Objects\Character\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCManager.cpp">
+      <Filter>Game\Objects\Character\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleLine.cpp">
+      <Filter>Framework\Common\Figure</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Framework\Common\Figure</Filter>
+    </ClCompile>
+    <ClCompile Include="NameTag.cpp">
+      <Filter>Framework\Common\NameTag</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Game\Objects\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Framework\Common\Figure</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrain.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadTree.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrustum.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCamera.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDataSaveLoad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>Framework\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Mercenary.cpp">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleBoss.cpp">
+      <Filter>Game\Objects\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Game\Objects\Character\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBase.cpp">
+      <Filter>Game\Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapView.cpp">
+      <Filter>Game\Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketObject.cpp">
+      <Filter>Game\Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopManager.cpp">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClCompile>
+    <ClCompile Include="UIInventory.cpp">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEquippedItem.cpp">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMouseSocket.cpp">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClCompile>
+    <ClCompile Include="UIShop.cpp">
+      <Filter>Game\UI\아이템 관련</Filter>
+    </ClCompile>
+    <ClCompile Include="UIAlram.cpp">
+      <Filter>Game\UI\기본</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialog.cpp">
+      <Filter>Game\UI\기본</Filter>
+    </ClCompile>
+    <ClCompile Include="UIProgress.cpp">
+      <Filter>Game\UI\기본</Filter>
+    </ClCompile>
+    <ClCompile Include="UIQuest.cpp">
+      <Filter>Game\UI\기본</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScreen.cpp">
+      <Filter>Game\UI\기본</Filter>
+    </ClCompile>
+    <ClCompile Include="UISkill.cpp">
+      <Filter>Game\UI\기본</Filter>
+    </ClCompile>
+    <ClCompile Include="UISocket.cpp">
+      <Filter>Game\UI\기본</Filter>
+    </ClCompile>
+    <ClCompile Include="cPartcleEmitter.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticle.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleQuad.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadParticleEmitter.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MercenaryWeapon.cpp">
+      <Filter>Game\Objects\Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Around_Dust.cpp">
+      <Filter>Game\Effect\CurrentEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Dust.cpp">
+      <Filter>Game\Effect\CurrentEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="fog.cpp">
+      <Filter>Game\Effect\CurrentEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="UIShopButton.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PostEffect.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game\Objects\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="BossPoisonCloud.cpp">
+      <Filter>Game\Effect\CurrentEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelect.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UILevel.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteEffect.cpp">
+      <Filter>Game\Effect\SpriteEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack_Effect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BowEffect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BowEffect02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BowEffect03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="effect_02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HitRing.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mon_DamageFX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mon_DamageRingFX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAttackFX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PC_DamageFX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PC_UFX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PCU_Around_Dust.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RideFX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RollingDust.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ShiledFX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ShiledPtFX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword_effect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Muspel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Pumpkin.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullWarrior.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Golem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Storm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StormDust.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StormPt.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Uskill_DustFX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc_Dust.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OrcPoisonCloud.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMiniMap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Around_Dust.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3D Portfolio - Sword Is Desert.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="3D Portfolio - Sword Is Desert.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

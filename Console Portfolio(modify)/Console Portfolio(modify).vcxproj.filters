@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{780afe8f-fc80-4daa-9f91-6139a49ebc11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{3175b448-3934-4b45-b136-6f5818a7c7eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\util">
+      <UniqueIdentifier>{a2699621-6181-41ec-b37e-eb9e6d4662cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\sound/bgm">
+      <UniqueIdentifier>{d3513e6d-f548-4449-8028-5450c20a5140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\image/cg">
+      <UniqueIdentifier>{efde5e6b-bad0-4331-b6b3-4119a89a3869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\unit/item">
+      <UniqueIdentifier>{a5ad095a-0ac7-4bf3-8813-c502ca335649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\town">
+      <UniqueIdentifier>{f4cfbc12-fff4-4b37-acd1-bfe139257101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\gamble">
+      <UniqueIdentifier>{2ecbf498-a192-430d-b54f-cb210cc6312d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\map/battle">
+      <UniqueIdentifier>{4be2bcc0-976e-4bc0-b7b9-c667237df201}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDisplay.cpp">
+      <Filter>game\util</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>game\util</Filter>
+    </ClCompile>
+    <ClCompile Include="GameImage.cpp">
+      <Filter>game\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Story.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>game\unit/item</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>game\unit/item</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>game\unit/item</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>game\town</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>game\town</Filter>
+    </ClCompile>
+    <ClCompile Include="HighLowSeven.cpp">
+      <Filter>game\gamble</Filter>
+    </ClCompile>
+    <ClCompile Include="Sutda.cpp">
+      <Filter>game\gamble</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolnamppong.cpp">
+      <Filter>game\gamble</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamble.cpp">
+      <Filter>game\gamble</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>game\map/battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>game\map/battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>game\map/battle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameMain.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDisplay.h">
+      <Filter>game\util</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>game\util</Filter>
+    </ClInclude>
+    <ClInclude Include="GameImage.h">
+      <Filter>game\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Story.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>game\unit/item</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>game\unit/item</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>game\unit/item</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>game\town</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>game\town</Filter>
+    </ClInclude>
+    <ClInclude Include="HighLowSeven.h">
+      <Filter>game\gamble</Filter>
+    </ClInclude>
+    <ClInclude Include="Sutda.h">
+      <Filter>game\gamble</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolnamppong.h">
+      <Filter>game\gamble</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamble.h">
+      <Filter>game\gamble</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>game\map/battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>game\map/battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>game\map/battle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resource\sound\bgm\track01.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track02.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track02r.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track03.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track04.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track05r.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track06.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track08.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track10.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track11r.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track12.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track13.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track14r.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track15.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track16-1.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track16-2.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track16-3.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track17.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track18.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track19.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track21-1.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+    <Media Include="resource\sound\bgm\track21-2.wav">
+      <Filter>리소스 파일\sound/bgm</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resource\image\cg\lina_normal.txt">
+      <Filter>리소스 파일\image/cg</Filter>
+    </Text>
+    <Text Include="resource\image\cg\opening.txt">
+      <Filter>리소스 파일\image/cg</Filter>
+    </Text>
+    <Text Include="resource\image\cg\wonjang_normal.txt">
+      <Filter>리소스 파일\image/cg</Filter>
+    </Text>
+    <Text Include="resource\image\cg\yeun_normal.txt">
+      <Filter>리소스 파일\image/cg</Filter>
+    </Text>
+    <Text Include="resource\image\cg\town.txt">
+      <Filter>리소스 파일\image/cg</Filter>
+    </Text>
+    <Text Include="resource\image\cg\maejum.txt">
+      <Filter>리소스 파일\image/cg</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

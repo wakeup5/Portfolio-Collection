@@ -1,0 +1,15 @@
+0~30 : Adle
+
+30~60 : Walk
+
+60~89 : Attack
+
+90~120 : Run
+
+120~ 180 :Attact2
+
+180~210 : DoriDori
+
+210~225 : SeatDown
+
+225~240 :StandUp
